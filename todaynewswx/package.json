@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+=======
+{
+  "name": "todaynews",
+  "version": "1.0.0",
+  "description": "today-news",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  
+  },
+  "dependencies": {
+ 
+  }
+}
+>>>>>>> 89b31e207931a660c203c8e7a3e6efefe43aafab

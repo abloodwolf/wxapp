@@ -1,4 +1,6 @@
-##　文件demo介绍简介
+## 文件demo介绍简介
+
+[参考资料](http://blog.csdn.net/msyqmsyq/article/details/79128238)
 
 - WXCustomSwitch 微信小程序自定义 Switch 组件模板
 - baisi  微信小程序仿百思不得姐
