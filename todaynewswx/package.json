@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-polyfill": "^6.16.0"
+  
   },
   "dependencies": {
-    "bluebird": "^3.4.6"
+ 
   }
 }
