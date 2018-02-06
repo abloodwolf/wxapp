@@ -1,0 +1,67 @@
+#tapTest{
+  position: absolute;
+  top:50%;
+  left: 40%;
+  margin-left: -100rpx;
+  width:600rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #f00;
+ 
+}
+
+#loadQa{
+  position: absolute;
+  top:10%;
+  left: 40%;
+  margin-left: -100rpx;
+  width:340rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  line-height: 90rpx;
+  font-weight: 700;
+  color: #f00;
+  background: #0f0;
+}
+
+#loadMap{
+  position: absolute;
+  top:30%;
+  left: 40%;
+  margin-left: -100rpx;
+  width:340rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  line-height: 90rpx;
+  font-weight: 700;
+  color: #f00;
+  background: #0f0;
+}
+#loadAudio{
+  position: absolute;
+  top:60%;
+  left: 40%;
+  margin-left: -100rpx;
+  width:360rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  line-height: 90rpx;
+  font-weight: 700;
+  color: #f00;
+  background: #0f0;
+}
+#loadVideo{
+  position: absolute;
+  top:80%;
+  left: 40%;
+  margin-left: -100rpx;
+  width:360rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  line-height: 90rpx;
+  font-weight: 700;
+  color: #f00;
+  background: #0f0;
+}
+

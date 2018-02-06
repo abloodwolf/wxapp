@@ -1,0 +1,13 @@
+
+<view >{{title}}</view>
+<block wx:for="{{news}}" wx:for-item="new">
+<navigator url='../find/find'>
+<view class="news" wx:if="true">
+<view class="tt">
+<text class="top">{{new.news.title}}</text>
+<text class="txt">{{new.news.txt}}</text>
+</view>
+ <view class="img"><image mode= 'aspectFill' src="{{new.news.image}}"></image></view>
+ </view>
+ </navigator>
+</block>

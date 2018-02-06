@@ -1,0 +1,3 @@
+<!--pages/monthlyPay/monthlyPay.wxml-->
+<!-- <text>pages/monthlyPay/monthlyPay.wxml</text> -->
+<web-view src="{{monthlyPaySrc}}"></web-view>

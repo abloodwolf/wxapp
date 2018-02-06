@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/bill/bill",
+    "pages/find/find",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/promotion/promotion",
+    "pages/monthlyPay/monthlyPay",
+    "pages/map/map",
+    "pages/audio/audio",
+    "pages/video/video",
+    "pages/qa/qa",
+    "pages/result/result"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye1.png",
+        "selectedIconPath": "images/shouye2.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "images/faxian1.png",
+        "selectedIconPath": "images/faxian2.png"
+      },
+      {
+        "pagePath": "pages/bill/bill",
+        "text": "个人",
+        "iconPath": "images/geren1.png",
+        "selectedIconPath": "images/geren2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,58 @@
+<loading hidden="{{hidden}}">
+  加载中...
+</loading>
+
+<scroll-view scroll-x class="scr">
+  <navigator url="../list/list" class="scroll-x" wx:for="{{lis}}">
+    <view>{{item}}</view>
+  </navigator>
+</scroll-view>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{imgUrls}}">
+    <navigator url="../list/list">
+      <swiper-item>
+        <view>{{item.news.title}}</view>
+        <image mode='aspectFill' src="{{item.news.image}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </navigator>
+  </block>
+</swiper>
+
+<block wx:for="{{cars}}" wx:for-item="car">
+
+  <view class="cars" wx:if="true">
+    <!-- <navigator url="../list/list?id={{car.id}}"> -->
+    <navigator url="../detail/detail?id={{car.id}}">
+      <view class="top">
+        <view class="lf">
+          <!-- <text class="top">{{car.rootBrandNameZh}}{{car.nameZh}}</text> -->
+          <image mode='aspectFill' src="{{car.whiteGroundFocusPic}}" class="slide-image" />
+        </view>
+        <view class="rg">
+          <text class="tit">{{car.rootBrandNameZh}}{{car.nameZh}}</text>
+          <text class="guide">指导价：{{car.minPriceGuide}}-{{car.maxPriceGuide}}万</text>
+          <text class="guide" wx:if="{{car.usedCarMinPrice != null}}">二手价：{{car.usedCarMinPrice}}万起</text>
+          <view class="sprice">最低报价：
+            <text class="red">{{car.dealerMin4SPrice}}万元</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <view class="foot">
+      <navigator url="../monthlyPay/monthlyPay?id={{car.id}}">
+        <text class="blue_tip">分期</text>
+        <text>首付{{(car.downPay)}}元，月供{{car.monthlyPay}}起</text>
+      </navigator>
+    </view>
+    <view class="foot">
+      <navigator class="promotion" url="../promotion/promotion?promotionSrc={{car.cuxiaoList[0].cuxiaoUrl}}" wx:if="{{car.cuxiaoList.length}}">
+        <text class="orange_tip">优惠</text>
+        <text>{{(car.cuxiaoList[0].cuxiaoName)}}</text>
+      </navigator>
+    </view>
+  </view>
+
+
+</block>
+
+<button class="loadmore_btn" bindtap="loadmore">加载更多</button>

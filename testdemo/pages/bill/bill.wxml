@@ -1,0 +1,20 @@
+<!-- <view >{{path}}</view> -->
+<!-- <view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! load page </view> -->
+<view wx:if="{{showPage}}"> True </view>
+<web-view wx:if="{{showPage}}" src="{{path}}"> </web-view>
+
+<navigator class="qa" url="../qa/qa" >
+  <view id="loadQa" bindtap="loadQa"> Click me! load qa </view>
+</navigator>
+
+<navigator class="map" url="../map/map" >
+  <view id="loadMap" bindtap="loadMap"> Click me! load map </view>
+</navigator>
+
+<navigator class="audio" url="../audio/audio" >
+  <view id="loadAudio" bindtap="loadAudio"> Click me! load audio </view>
+</navigator>
+
+<navigator class="video" url="../video/video" >
+  <view id="loadVideo" bindtap="loadVideo"> Click me! load video </view>
+</navigator>

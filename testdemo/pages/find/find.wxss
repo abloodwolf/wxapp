@@ -1,0 +1,114 @@
+/* pages/find/find.wxss */
+.slide-image{
+  width: 100%;
+  height: 100%;
+  
+}
+.navigator-hover {
+   animation: rotate(180);
+    color:red;
+}
+.scr{
+  white-space: nowrap;
+  display: flex;
+  height: 90rpx;
+  width:100%;
+  box-sizing: border-box;
+  
+
+}
+.scroll-x{
+  height:90rpx;
+  line-height: 90rpx;
+  width: 15%;
+  margin:0 25rpx;
+  text-align: center;
+  cursor:pointer;
+  display: inline-block;
+}
+.cars{
+  width:100%; 
+  height: 320rpx;
+  margin-top:20rpx;
+  border:2rpx solid #C0C0C0;
+  box-shadow: 1rpx 4rpx 5rpx #888;
+  box-sizing: border-box;
+}
+.top{
+  display: flex;
+}
+.news-item{
+  flex: 1;
+}
+.img{
+  height: 100%;
+  width: 45%;
+}
+.lf{
+  float: left;
+  flex:1;
+  width: 40%;
+  padding:10rpx 10rpx;
+  display: flex;
+  flex-direction: column;
+  
+}
+.lf image{
+  width: 300rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+}
+.rg{
+  width: 60%;
+  padding:10rpx 10rpx;
+  float: left;
+}
+.rg .tit{
+  display: block;
+  padding-top: 40rpx;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  font-weight: 700;
+  color: #333;
+  
+}
+.rg .guide{
+  display: block;
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #777;
+}
+.rg .sprice{
+  display: block;
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #333;
+}
+.rg .sprice .red{
+  color: #e93b3c;
+  font-size: 28rpx;
+}
+.foot{
+  width: 100%;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  margin:18rpx;
+}
+.foot .blue_tip{
+  color: #4880d3;
+  border: 2rpx solid #4880d3;
+  padding: 2rpx;
+  border-radius: 1rpx;
+  margin-right: 4rpx;
+}
+.foot .orange_tip{
+    color: #f48420;
+    border: 2rpx solid #f48420;
+}
+.promotion{
+  margin-top:8tpx;
+}
+
+

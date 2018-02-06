@@ -1,0 +1,3 @@
+<!--pages/promotion/promotion.wxml-->
+<!-- <text>pages/promotion/promotion.wxml</text> -->
+<web-view src="{{promotionSrc}}"></web-view>
