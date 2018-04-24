@@ -1,6 +1,4 @@
-## 文件demo介绍简介
-
-[参考资料](http://blog.csdn.net/msyqmsyq/article/details/79128238)
+##　文件demo介绍简介
 
 - WXCustomSwitch 微信小程序自定义 Switch 组件模板
 - baisi  微信小程序仿百思不得姐
@@ -33,4 +31,4 @@
 - Wa-UI  针对微信小程序整合的一套UI库
 - wx-query  微信小程序 仿jQuery插件
 - testdemo  自己试写小demo
-
+- chartjs-wechat  小程序图表
