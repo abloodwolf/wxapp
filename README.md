@@ -31,4 +31,5 @@
 - Wa-UI  针对微信小程序整合的一套UI库
 - wx-query  微信小程序 仿jQuery插件
 - testdemo  自己试写小demo
-- chartjs-wechat  小程序图表
+- chartjs-wechat  使用chars实现小程序图表
+- echarts-for-weixin 使用echarts实现小程序图表
